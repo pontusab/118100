@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "email": "info@wdlinkoping.se",
+            "name": "Pontus Abrahamsson",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "HundraArtonHundra\\": "src/"
+        }
+    },
+    "description": "Library for implementing 118100 API - Phonnumber and information lookup",
+    "license": "Apache-2.0",
+    "name": "HundraArtonHundra/HundraArtonHundra",
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
