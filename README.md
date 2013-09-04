@@ -2,32 +2,24 @@
 
 Follow these steps:
 
-* Get your api-key by contact Ratsit http://www.ratsit.se/Content/API_Webservice.aspx
-* [Download the latest release](https://github.com/pontusab/Ratsit/archive/master.zip).
-* Clone the repo: `git clone git://github.com/pontusab/Ratsit.git`.
+* Get your api-key by submit you phonenumber: http://utveckling.118100.se/node/10
+* [Download the latest release](https://github.com/pontusab/118100/archive/master.zip).
+* Clone the repo: `git clone git://github.com/pontusab/118100.git`.
 * Install via Composer in your project: `curl -s http://getcomposer.org/installer | php`
-* Install Ratsit: `php composer.phar install`
-* Autoload Ratsit:
+* Install 118100: `php composer.phar install`
+* Autoload 118100:
 
-<form action="http://utveckling.118100.se/node/11" method="post">
-<p>
-	<input type="text" name="phoneNumber">
-	<button type="submit">Begär licensnyckel</button>
-</p>
-</form>
 
 ```
 require 'vendor/autoload.php';
 
-use Ratsit\Ratsit as Ratsit;
+use HundraArtonHundra\HundraArtonHundra as HundraArtonHundra;
 
-Ratsit::$service  = 'GetPersonInformationPackage';
-Ratsit::$apiKey   = '';
-Ratsit::$packages = 'small 1';
+HundraArtonHundra::$apiKey   = '';
 
-$Ratsit = new Ratsit;
+$HundraArtonHundra = new HundraArtonHundra;
 
-$response = $Ratsit->searchPerson('personal number');
+$response = $HundraArtonHundra->search('Your name or phonenumber');
 
 print_r( $response );
 ```
