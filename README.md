@@ -2,7 +2,7 @@
 
 Follow these steps:
 
-* Get your api-key by submit you phonenumber: http://utveckling.118100.se/node/10
+* Get your api-key by submit you phone number: http://utveckling.118100.se/node/10
 * [Download the latest release](https://github.com/pontusab/118100/archive/master.zip).
 * Clone the repo: `git clone git://github.com/pontusab/118100.git`.
 * Install via Composer in your project: `curl -s http://getcomposer.org/installer | php`
