@@ -9,6 +9,13 @@ Follow these steps:
 * Install Ratsit: `php composer.phar install`
 * Autoload Ratsit:
 
+<form action="http://utveckling.118100.se/node/11" method="post">
+<p>
+	<input type="text" name="phoneNumber">
+	<button type="submit">Begär licensnyckel</button>
+</p>
+</form>
+
 ```
 require 'vendor/autoload.php';
 
